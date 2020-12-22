@@ -59,6 +59,7 @@ type GitPerson struct {
 }
 
 //TestStandardJSON is a function.
+//use structor.
 func TestStandardJSON(jsonFilePath string) {
 	//read json file
 	content, err := ioutil.ReadFile(jsonFilePath)
@@ -94,5 +95,23 @@ func TestStandardJSON(jsonFilePath string) {
 	checkError(err)
 	err = ioutil.WriteFile(jsonFilePath, data, 0777)
 	checkError(err)
+
+}
+
+//TestStandardJSON2 is a function
+//use interface
+func TestStandardJSON2(jsonFilePath string) {
+	content, err := ioutil.ReadFile(jsonFilePath)
+	if err != nil {
+		log.Fatal("File reading error", err)
+	}
+	//unmarshal json file
+	var gitPerson map[string]interface{}
+	if err := json.Unmarshal(content, &gitPerson); err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(gitPerson)
+	num := gitPerson["company"].(map[string]interface{})
+	fmt.Println(num["name"])
 
 }

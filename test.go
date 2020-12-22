@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/xzhao015/go/json"
+	"github.com/xzhao015/go/yaml_test"
 )
 
 func main() {
@@ -12,5 +12,6 @@ func main() {
 	//fmt.Println("output is ", output)
 	//output := ch2.MinDifference(a)
 	//fmt.Println("output is ", output)
-	json.TestStandardJSON("json/test.json")
+	//json.TestStandardJSON2("json/test.json")
+	yaml_test.ParserYaml("yaml_test/test.yaml")
 }
