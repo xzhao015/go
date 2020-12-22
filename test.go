@@ -12,5 +12,5 @@ func main() {
 	//fmt.Println("output is ", output)
 	//output := ch2.MinDifference(a)
 	//fmt.Println("output is ", output)
-	json.CheckJSON("json/test.json")
+	json.TestStandardJSON("json/test.json")
 }

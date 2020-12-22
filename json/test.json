@@ -1,20 +1,43 @@
 {
     "person": {
-      "name": {
-        "first": "Leonid",
-        "last": "Bugaev",
-        "fullName": "Leonid Bugaev"
-      },
-      "github": {
-        "handle": "buger",
-        "followers": 109
-      },
-      "avatars": [
-        { "url": "https://avatars1.githubusercontent.com/u/14009?v=3&s=460", "type": "thumbnail" }
-      ]
+        "name": {
+            "first": "zhaoxia",
+            "last": "Bugaev",
+            "fullName": "Leonid Bugaev"
+        },
+        "github": {
+            "handle": "buger",
+            "followers": 109
+        },
+        "avatars": [
+            {
+                "url": "http://1234567",
+                "type": "thumbnail"
+            },
+            {
+                "url": "http://1234567",
+                "type": "thumbnail"
+            },
+            {
+                "url": "http://1234567",
+                "type": "thumbnail"
+            },
+            {
+                "url": "http://1234567",
+                "type": "thumbnail"
+            },
+            {
+                "url": "https://avatars1.githubusercontent.com/u/14009?v=3\u0026s=460",
+                "type": "thumbnail"
+            }
+        ]
     },
     "company": {
-      "name": "Acme",
-      "size": 35
+        "name": "Acme",
+        "size": 35
+    },
+    "company1": {
+        "name1": "zhaoxia",
+        "size1": 3000
     }
 }
