@@ -13,5 +13,5 @@ func main() {
 	//output := ch2.MinDifference(a)
 	//fmt.Println("output is ", output)
 	//json.TestStandardJSON2("json/test.json")
-	yaml_test.ParserYaml("yaml_test/test.yaml")
+	yaml_test.ParserYaml1("yaml_test/test.yaml")
 }
